@@ -13,11 +13,13 @@ to validate that my results match.
 | Decision Tree | Iris dataset | No |
 | Random Forest | Iris dataset | No |
 | K-means Clustering | Blob dataset | Yes — cluster plots |
+| Naive Bayes | Toy dataset | No |
 
 ## Highlights
 - Random Forest built on top of my own Decision Tree implementation
 - Binary cross-entropy math implemented manually for Logistic Regression
 - K-means and Linear Regression include visual output
+- Gaussian Naive Bayes with log-likelihood to avoid numerical underflow
 
 ## Why I built this
 Using sklearn is easy. Understanding what it's actually doing 
